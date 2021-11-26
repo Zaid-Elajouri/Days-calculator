@@ -1,0 +1,43 @@
+.container{
+    width:40%;
+    height:50%;
+    display:inline;
+    background-size: contain;
+    position:relative;
+    left:50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+.container input{
+    width:16%;
+    border-radius: 3px;
+    border-color:blueviolet;
+    height:5%;
+}
+.container button{
+    width:10%;
+    color: aliceblue;
+    background-color:blueviolet;
+    height:4%;
+    border-radius: 3px;
+    cursor:pointer;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-left: 7rem;
+
+}
+.container button:hover{
+    color:black;
+    background-color: aliceblue;
+}
+.input_style{
+    margin: 20px;
+    font-size:large;
+}
+p{
+    background: blueviolet;
+    width:fit-content;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    font-size: 150%;
+    font-weight: 500;
+}
