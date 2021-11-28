@@ -10,3 +10,7 @@ function get_days(){
               
 }
 
+var btn = document.getElementById("btn");
+     btn.addEventListener("click", get_days() ,{
+     
+}, false);
