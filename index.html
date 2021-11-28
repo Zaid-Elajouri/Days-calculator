@@ -4,26 +4,33 @@
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
         <script src="home.js"></script>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css">
     </head>
 
      <body>
 
-       <div class="container">
-           
-         <div class="input_style">
-            <label>Start Date</label> <input type="date" id="d1">
-         </div> 
-         <div class="input_style">
-            <label>End Date</label><input type="date" id="d2">
-          </div> 
-
-            <button id="btn" onclick="get_days(this)">Calcul Days</button>
-            <p id="result" ></p>
-
-       </div>    
+   <div class="container_form">
          
+        <div>
+            <label for="fname">Start Date</label>
+              <input id="d1" type="date">
+        </div>
+
+        <div>
+            <label for="fname">END Date</label>
+              <input id="d2" type="date">
+        </div>
+      
+      <div>
+         <input type="submit" value="Calcul Days" id="btn" onclick="get_days()">
+          <p id="result"></p>
+      </div>
+    
+   </div>
+     <div class="footer">
+     <p>created by <strong><a href="mailto:elajourizaid@gmail.com">Zaid Elajouri</a></strong></p>
+   </div>
+    
      </body>
      
-      
 </html>
