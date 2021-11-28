@@ -1,4 +1,4 @@
-function get_days(){
+function get_days(myvalue){
     var day1 = document.getElementById("d1").value;
     var day2 = document.getElementById("d2").value;
     const date_one = new Date(day1);
@@ -11,6 +11,6 @@ function get_days(){
 }
 
 var btn = document.getElementById("btn");
-     btn.addEventListener("click", get_days() ,{
+     btn.addEventListener("click", get_days(myvalue) ,{
      
 }, false);
