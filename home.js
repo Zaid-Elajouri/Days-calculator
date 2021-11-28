@@ -9,3 +9,4 @@ function get_days(){
     document.getElementById("result").innerHTML ="Number of days between the two dates is *"+days+"* days";
               
 }
+get_days();
